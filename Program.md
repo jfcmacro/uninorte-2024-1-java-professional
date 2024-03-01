@@ -1,8 +1,33 @@
 # Program
 
+### Scheduler
+
+| Week  | Date       | Subject Evaluated                                            | Subject to Prepare                                          |
+| ----- | ---------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
+| 3     | 16/02/2024 | Object-Oriented Thinking: SOLID AND Design Patterns and Task | Object-Oriented Thinking - Dive into Tools Java Development |
+| 4     | 23/02/2024 | Dive into Tools: Maven and Junit (Tasks) and XML (Tasks)     | Java Concurrency Essentials                                 |
+| Video |            | Java Concurrency Essentials: Tasks                           | Java Memory Management                                      |
+| 5     | 1/03/2024  | Java Memory Managmenent: Tasks and Projects                  | RDBS and SQL Essentials                                     |
+| 6     | 8/03/2024  | RDBS and SQL Essentials: ER-Design, SQL-Queries (Task)       | JBCD Essentials and DAO Patterns                            |
+| 7     | 15/03/2024 | JBCD Essentials and DAO Patterns: Tasks (Row,Set, Dao)       | Web Basics                                                  |
+| 8     | 22/03/2024 | Web Basics: No task, No Project                              | Web Basics                                                  |
+| 9     | 5/04/2024  | Web Basics: Designing a Web                                  | Servlet API and JSP                                         |
+| 10    | 12/04/2024 | Servlet API and JSP: - Servlet Life Cycle, Expression Calculator | Servlet API and JSP                                         |
+| 11    | 19/04/2024 | Servlet API and JSP: Stateful-expression calculator          | Spring Core                                                 |
+| 12    | 26/04/2024 | Spring Core: Chess-Puzzle, Video-Beans                       | Spring MVC                                                  |
+| 13    | 3/05/2024  | Spring MVC: MVC Stateful Expression Calculator               | Spring Boot                                                 |
+| 14    | 10/05/2024 | Spring Boot: SB-Basics SB-Web                                | Spring Boot                                                 |
+| 15    | 17/05/2024 | Spring Boot: SB-Web SB-Command-Line                          | Spring Boot                                                 |
+| 16    | 24/05/2024 | Spring Boot: SB-Data SB-Extra Topics                         |                                                             |
+|       |            | Spring Boot: SB-Data SB-Extra Topics                         |                                                             |
+
 ## Chapter 01. Software Development Approaches
 
+* Weeks: 3
+
 ### Design Patterns and Principles
+
+* Week number: 1, 2.
 
 #### Object -Oriented Thinking
 
@@ -29,15 +54,21 @@
 ##### Evaluation
 
 * Quiz:
-* Practice (2)
-  * Object-Oriented Thinking Project
-  * [Juan Cardona / design-patterns · GitLab](https://gitlab.com/juan_cardona_epam/design-patterns) 
+* Practice:
+  | Title                                                        | Type    | Status    |             |
+  | ------------------------------------------------------------ | ------- | --------- | ----------- |
+  | [Object-Oriented Thinking Project](./Projects/Object-Oriented Thinking.md) | Project | Mandatory | No Started. |
+  | [Juan Cardona / design-patterns · GitLab](https://gitlab.com/juan_cardona_epam/design-patterns) | Task    | Mandatory | Programming |
+  
+  
 
 #### Evaluation
 
 * Final Test
 
 ### Dive into Tools Java Development
+
+* Number week: 3
 
 #### Introduction to Maven and JUnit
 
@@ -56,10 +87,12 @@
 
 * Quiz
 * Practice:
-  * [Juan Cardona / test-sorting · GitLab](https://gitlab.com/juan_cardona_epam/test-sorting)
-  *  [Juan Cardona / test-quadratic-equation · GitLab](https://gitlab.com/juan_cardona_epam/test-quadratic-equation) 
-  * Sorting App Project
-  * [Juan Cardona / test-factorial · GitLab](https://gitlab.com/juan_cardona_epam/test-factorial) (Optional)
+  | Title                                                        | Type    | Status    |         |
+  | ------------------------------------------------------------ | ------- | --------- | ------- |
+  | [Juan Cardona / test-sorting · GitLab](https://gitlab.com/juan_cardona_epam/test-sorting) | Task    | Mandatory | Started |
+  | [Juan Cardona / test-quadratic-equation · GitLab](https://gitlab.com/juan_cardona_epam/test-quadratic-equation) | Task    | Mandatory | Started |
+  | [Sorting App Project](./Projects/Sorting App.md)             | Project | Mandatory | Started |
+  | [Juan Cardona / test-factorial · GitLab](https://gitlab.com/juan_cardona_epam/test-factorial) | Task    | Mandatory | Done    |
 
 #### XML and JSON in Java
 
@@ -81,13 +114,23 @@
 * Quiz
 * [Juan Cardona / suffixing-app · GitLab](https://gitlab.com/juan_cardona_epam/suffixing-app)
 
+| Title                                                        | Type    | Status    |         |
+| ------------------------------------------------------------ | ------- | --------- | ------- |
+| [Juan Cardona / suffixing-app · GitLab](https://gitlab.com/juan_cardona_epam/suffixing-app) | Project | Mandatory | Started |
+
+
+
 #### Evaluation
 
 * Final test
 
 ## Chapter 02 - Java Professional SE Development
 
+* Weeks: 2
+
 ### Java Concurrency Essentials
+
+* Number Week: 4
 
 | Subjects                         |      |      |      |      |
 | -------------------------------- | ---- | ---- | ---- | ---- |
@@ -99,10 +142,18 @@
 #### Evaluation
 
 * Quiz
-* [Juan Cardona / thread-factoring · GitLab](https://gitlab.com/juan_cardona_epam/thread-factoring)
-* [Juan Cardona / concurrent-tic-tac-toe · GitLab](https://gitlab.com/juan_cardona_epam/concurrent-tic-tac-toe)
+* Practices:
+
+| Title                                                        | Type | Status    |          |
+| ------------------------------------------------------------ | ---- | --------- | -------- |
+| [Juan Cardona / thread-factoring · GitLab](https://gitlab.com/juan_cardona_epam/thread-factoring) | Task | Mandatory | Done it! |
+| [Juan Cardona / concurrent-tic-tac-toe · GitLab](https://gitlab.com/juan_cardona_epam/concurrent-tic-tac-toe) | Task | Mandatory | Done it! |
+
+
 
 ### Java Memory Management
+
+* Number week: 5
 
 | Subjects                           |      |      |      |      |
 | ---------------------------------- | ---- | ---- | ---- | ---- |
@@ -116,8 +167,14 @@
 #### Evaluation
 
 * Quiz
-* Stack-Heap Diagram (Project)
-* Load Test (Project) - (Optional)
+* Practices:
+
+| Title                                                  | Type    | Status    |         |
+| ------------------------------------------------------ | ------- | --------- | ------- |
+| [Stack-Heap Diagram](./Projects/Stack-Heap Diagram.md) | Project | Mandatory | Started |
+| [Load Test](./Projects/Load Test.md)                   | Project | Optional  | Started |
+
+
 
 ### Evaluation
 
@@ -125,7 +182,11 @@
 
 ## Chapter 03 - Introduction to DataBase and Web Development
 
+* Weeks: 6
+
 #### RDBS and SQL Essentials
+
+* Number week: 6
 
 | Subjects                                              |      |      |      |      |
 | ----------------------------------------------------- | ---- | ---- | ---- | ---- |
@@ -147,10 +208,19 @@
 ##### Evaluation
 
 * Quiz
-* ER Design (Project)
+* [ER Design](./Projects/ER Design.md)
 * [Juan Cardona / sql-queries · GitLab](https://gitlab.com/juan_cardona_epam/sql-queries)
 
+| Title                                                        | Type    | Status    |          |
+| ------------------------------------------------------------ | ------- | --------- | -------- |
+| [ER Design](./Projects/ER Design.md)                         | Project | Mandatory | Started  |
+| [Juan Cardona / sql-queries · GitLab](https://gitlab.com/juan_cardona_epam/sql-queries) | Task    | Mandatory | Done it! |
+
+
+
 #### JDBC Essentials and the DAO Pattern
+
+* Number week: 7
 
 | Subjects                             |      |      |      |      |
 | ------------------------------------ | ---- | ---- | ---- | ---- |
@@ -163,12 +233,20 @@
 ##### Evaluation
 
 * Quiz
-* [Juan Cardona / row-mapper · GitLab](https://gitlab.com/juan_cardona_epam/row-mapper)
-* [Juan Cardona / set-mapper · GitLab](https://gitlab.com/juan_cardona_epam/set-mapper)
-* [Juan Cardona / dao · GitLab](https://gitlab.com/juan_cardona_epam/dao)
-* [Juan Cardona / service · GitLab](https://gitlab.com/juan_cardona_epam/service) (Optional)
+* Practice:
+
+| Title                                                        | Type | Status    |          |
+| ------------------------------------------------------------ | ---- | --------- | -------- |
+| [Juan Cardona / row-mapper · GitLab](https://gitlab.com/juan_cardona_epam/row-mapper) | Task | Mandatory | Done it! |
+| [Juan Cardona / set-mapper · GitLab](https://gitlab.com/juan_cardona_epam/set-mapper) | Task | Mandatory | Done it! |
+| [Juan Cardona / dao · GitLab](https://gitlab.com/juan_cardona_epam/dao) | Task | Mandatory | Started  |
+| [Juan Cardona / service · GitLab](https://gitlab.com/juan_cardona_epam/service) | Task | Optional  | Started  |
+
+
 
 #### Web Basics
+
+* Number week: 8,9
 
 | Subjects               |      |      |      |      |
 | ---------------------- | ---- | ---- | ---- | ---- |
@@ -184,11 +262,17 @@
 ##### Evaluation
 
 * Quiz
-* Designing a Web 
+* Practice:
+
+| Title                                                 | Type    | Status    |         |
+| ----------------------------------------------------- | ------- | --------- | ------- |
+| [Designing a Web](./Projects/Designing a Web Page.md) | Project | Mandatory | Started |
+
+
 
 #### Servlet API and JSP
 
-
+* Number week: 10, 12
 
 | Subjects                                                |      |      |      |      |
 | ------------------------------------------------------- | ---- | ---- | ---- | ---- |
@@ -206,9 +290,15 @@
 ##### Evaluation
 
 * Quiz
-* [Juan Cardona / expression-calculator · GitLab](https://gitlab.com/juan_cardona_epam/expression-calculator)
-* [Juan Cardona / stateful-expression-calculator · GitLab](https://gitlab.com/juan_cardona_epam/stateful-expression-calculator)
-* [Juan Cardona / jsp-currencies · GitLab](https://gitlab.com/juan_cardona_epam/jsp-currencies)(Optional)
+* Practice:
+
+| Title                                                        | Type | Status    |         |
+| ------------------------------------------------------------ | ---- | --------- | ------- |
+| [Juan Cardona / expression-calculator · GitLab](https://gitlab.com/juan_cardona_epam/expression-calculator) | Task | Mandatory | Started |
+| [Juan Cardona / stateful-expression-calculator · GitLab](https://gitlab.com/juan_cardona_epam/stateful-expression-calculator) | Task | Mandatory | Started |
+| [Juan Cardona / jsp-currencies · GitLab](https://gitlab.com/juan_cardona_epam/jsp-currencies) | Task | Optional  | Started |
+
+
 
 #### Evaluation
 
@@ -216,7 +306,11 @@
 
 ## Chapter 04. Modern Professional Java Web Development with Spring
 
+* Weeks: 5
+
 ### Spring Core
+
+* Number week: 12
 
 | Sujects                                               |      |      |      |      |
 | ----------------------------------------------------- | ---- | ---- | ---- | ---- |
@@ -233,12 +327,19 @@
 
 * Quiz
 * Practice:
-  * [Juan Cardona / chess-puzzles · GitLab](https://gitlab.com/juan_cardona_epam/chess-puzzles)
-  * [Juan Cardona / spring-video-beans · GitLab](https://gitlab.com/juan_cardona_epam/spring-video-beans)
-  * [Juan Cardona / chess-puzzles-xml · GitLab](https://gitlab.com/juan_cardona_epam/chess-puzzles-xml) (Optional)
-  * [Juan Cardona / spring-custom-scopes · GitLab](https://gitlab.com/juan_cardona_epam/spring-custom-scopes) (Optional)
+
+| Title                                                        | Type | Status    |          |
+| ------------------------------------------------------------ | ---- | --------- | -------- |
+| [Juan Cardona / chess-puzzles · GitLab](https://gitlab.com/juan_cardona_epam/chess-puzzles) | Task | Mandatory | Done it! |
+| [Juan Cardona / spring-video-beans · GitLab](https://gitlab.com/juan_cardona_epam/spring-video-beans) | Task | Mandatory | Started  |
+| [Juan Cardona / chess-puzzles-xml · GitLab](https://gitlab.com/juan_cardona_epam/chess-puzzles-xml) | Task | Optional  | Started  |
+| [Juan Cardona / spring-custom-scopes · GitLab](https://gitlab.com/juan_cardona_epam/spring-custom-scopes) | Task | Optional  | Started  |
+
+
 
 ### Spring MVC
+
+* Number week: 13
 
 | Subjects            |      |      |      |      |
 | ------------------- | ---- | ---- | ---- | ---- |
@@ -252,9 +353,15 @@
 
 * Quiz
 * Practice:
-  * [Juan Cardona / spring-mvc-stateful-expression-calculator · GitLab](https://gitlab.com/juan_cardona_epam/spring-mvc-stateful-expression-calculator)
+  | Title                                                        | Type | Status    |         |
+  | ------------------------------------------------------------ | ---- | --------- | ------- |
+  | [Juan Cardona / spring-mvc-stateful-expression-calculator · GitLab](https://gitlab.com/juan_cardona_epam/spring-mvc-stateful-expression-calculator) | Task | Mandatory | Started |
+  
+  
 
 ### Spring Boot
+
+* Number week: 14, 15, 16
 
 #### Spring Boot Basics
 
@@ -288,13 +395,13 @@
 
 #### Spring Data
 
-| Subjects                           |      |      |      |      |
-| ---------------------------------- | ---- | ---- | ---- | ---- |
-| The Repository Pattern             |      |      |      |      |
-| Introduction to Spring Data        |      |      |      |      |
-| Building Embedded Databases        |      |      |      |      |
-| Building a Spring Data Respository |      |      |      |      |
-| Connecting to External Databases   |      |      |      |      |
+| Subjects                          |      |      |      |      |
+| --------------------------------- | ---- | ---- | ---- | ---- |
+| The Repository Pattern            |      |      |      |      |
+| Introduction to Spring Data       |      |      |      |      |
+| Building Embedded Databases       |      |      |      |      |
+| Building a Spring Data Repository |      |      |      |      |
+| Connecting to External Databases  |      |      |      |      |
 
 #### Spring Boot Extra Topics
 
@@ -312,7 +419,11 @@
 
 * Quiz
 * Practice:
-  * [Juan Cardona / employee-catalog · GitLab](https://gitlab.com/juan_cardona_epam/employee-catalog)
+  | Title                                                        | Type | Status    |         |
+  | ------------------------------------------------------------ | ---- | --------- | ------- |
+  | [Juan Cardona / employee-catalog · GitLab](https://gitlab.com/juan_cardona_epam/employee-catalog) | Task | Mandatory | Started |
+  
+  
 
 ## Capstone Project
 
