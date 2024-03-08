@@ -1,103 +1,27 @@
-# Session 01/03/2024
+# Session 06/03/2024
 
-Agenda:
+## Agenda
 
-* Introduction to Java threads
-* The concepts of concurrency and parallelism
-* Creating and starting threads in Java
-* Synchronization in Java threads
-* Race conditions and data hazards
-* Thread lifecycle: states and transitions
-* Thread synchronization using locks and monitors
-* Thread safety and atomic operations
-* Thread interruption and termination
-* Thread Factory (Task)
 * Concurrent TicTacToe (Task)
 * Understanding Databases
 * Database Foundations
 * Tables
 * Relationships
+* SQL Overview
+* SQL Fundamentals Concepts
+* SQL Strings
+* SQL Numbers and Dates
+* SQL Aggregates, Transactions, and Triggers
+* SQL Views and Sub-selects
 * Database Optimization
 * Creating a Database Structure and Querying a Database
 * Introduction of Advanced Database Features
+* Java Data Access (JDA)
+* JDBC
 
 ---
 
-# Introduction to Java threads
-
-- What are threads and their importance in Java?
-- Differences between processes and threads
-- Multithreading benefits and use cases
-- Java Thread class and Runnable interface
-
----
-
-# The concepts of concurrency and parallelism
-
-* Understanding concurrency and parallelism
-
-- Concurrent vs parallel execution
-- Benefits and challenges of concurrent programming
-
----
-
-# Creating and starting threads in Java
-
-- Extending the Thread class
-- Implementing the Runnable interface
-- Starting threads using start() method
-- Thread naming and identification
-
----
-
-# Synchronization in Java threads
-
-- Understanding synchronization and its purpose
-- Critical sections and mutual exclusion
-- Thread interference and memory consistency errors
-- Using synchronized blocks and method
-
----
-
-# Thread lifecycle: states and transitions
-
-- Thread states: new, runnable, blocked, waiting, timed waiting, terminated
-- Transition between states
-- Thread sleep and join methods
-
----
-
-# Thread synchronization using locks and monitors
-
-- Lock objects and their usage
-- Reentrant locks and fairness policies
-- Condition variables and signaling
-
----
-
-# Thread safety and atomic operations
-
-- Thread safety concepts and importance
-- Atomic variables and their usage
-- Atomic operations and their guarantees
-
----
-
-# Thread interruption and termination
-
-- Interrupting threads
-- Handling thread interruption
-- Graceful thread termination
-
----
-
-# Thread Factory (Task)
-
-* [Description](https://gitlab.com/juan_cardona_epam/thread-factoring)
-
----
-
-# Concurrrent TicTacToe (Task)
+# Concurrent TicTacToe (Task)
 
 * [Description](https://gitlab.com/juan_cardona_epam/concurrent-tic-tac-toe)
 
@@ -529,4 +453,56 @@ Adhering to ANSI SQL standards promotes code compatibility across DBMS.
 - Views and materialized views
 - Database security
 - Data backup and recovery
+
+---
+
+# Java Data Access (JDA)
+
+> **Java Data Access (JDA)** refers to the techniques and libraries that connect Java applications with databases.
+> It provides a framework for managing data and executing SQL queries. JDA includes JDBC, a standard API
+> for connecting to relational databases, and Object-Relational Mapping frameworks like Hibernate and JPA. 
+> JDA simplifies database connectivity, data retrieval, and transaction management in Java applications, 
+> improving performance and data consistency. With JDA, developers can build robust and scalable
+>  applications that interact with databases seamlessly.
+
+---
+
+# Java Data Access - Aspects
+
+1. JDBC (Java Database Connectivity).
+
+2. Object-Relational Mapping (ORM) frameworks.
+
+3. Connection pooling.
+
+4. Data source configuration.
+
+5. Transaction management.
+
+6. Query execution and result handling.
+
+7. Data access patterns.
+
+8. Performance optimization.
+
+---
+
+# JDBC
+
+> JDBC (Java Database Connectivity) is a standard Java API for
+> connecting Java applications to relational databases. It enables
+> executing SQL queries, fetching query results, updating data,
+> and managing transactions.
+
+Key features of JDBC include:
+
+1. Database Connection
+2. SQL Execution
+3. Query Results
+4. Prepared Statements
+5. Transaction Management
+6. Exception Handling
+7. Database Metadata
+
+---
 
