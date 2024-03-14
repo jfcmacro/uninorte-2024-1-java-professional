@@ -1,4 +1,4 @@
-# Session 06/03/2024
+# Session 08/03/2024
 
 ## Agenda
 
@@ -39,9 +39,9 @@
 ## What is a database?
 
 
->  "A database is a structured collection of data organized and stored 
->  in a computer system. 
->  It provides a means for efficiently storing, retrieving, and manipulating 
+>  "A database is a structured collection of data organized and stored
+>  in a computer system.
+>  It provides a means for efficiently storing, retrieving, and manipulating
 >  large volumes of data using predefined rules and operations."
 
 ---
@@ -73,8 +73,6 @@
 ---
 
 ## Importance of databases on modern bussiness
-
-Certainly! Here are the enumerations without descriptions:
 
 1. Centralized Data Storage
 2. Data Organization
@@ -171,17 +169,18 @@ Other data models include hierarchical, network, and document-based models.
 - Column's data types
 - Indexing tables
 - Operations
-- Table constraints 
+- Table constraints
 
 ---
 
 ## Table Definition
 
-> In the context of a database, a table is a structured collection of data organized in rows and columns. 
-> It represents a logical representation of data stored in a relational or tabular format. 
-> Tables serve as the fundamental containers for organizing and storing data within a database, 
-> with columns defining the attributes, rows representing individual data entries, 
-> and keys establishing relationships between tables.
+> In the context of a database, a table is a structured collection of data
+> organized in rows and columns. It represents a logical representation of
+> data stored in a relational or tabular format. Tables serve as the
+> fundamental containers for organizing and storing data within a database,
+> with columns defining the attributes, rows representing individual
+> data entries, and keys establishing relationships between tables.
 
 ---
 
@@ -199,15 +198,15 @@ Other data models include hierarchical, network, and document-based models.
 ## Column's Data Types
 
 1. `INTEGER`
-2. `FLOAT`/`DOUBLE` 
-3. `CHAR` 
+2. `FLOAT`/`DOUBLE`
+3. `CHAR`
 4. `VARCHAR`
 5. `DATE`
-6. `TIME` 
+6. `TIME`
 7. `DATETIME`/`TIMESTAMP`
 8. `BOOLEAN`
 9. `NUMERIC`/`DECIMAL`
-10. `TEXT`/`LARGETEXT` 
+10. `TEXT`/`LARGETEXT`
 
 ---
 
@@ -225,11 +224,13 @@ Other data models include hierarchical, network, and document-based models.
 ## Operations
 
 Operations Related to Table Structure:
+
 1. Create
 2. Alter
 3. Drop
 
 Other Operations on a Table:
+
 4. Select
 5. Insert
 6. Update
@@ -372,9 +373,9 @@ SQL dialects are variations of the SQL language specific to different DBMS.
 - PostgreSQL.
 - SQLite.
 
-While core SQL commands are expected, dialects may have syntax and functional differences.
-
-Adhering to ANSI SQL standards promotes code compatibility across DBMS.
+> While core SQL commands are expected, dialects may have syntax and
+> functional differences. Adhering to ANSI SQL standards promotes
+> code compatibility across DBMS.
 
 ---
 
@@ -458,12 +459,15 @@ Adhering to ANSI SQL standards promotes code compatibility across DBMS.
 
 # Java Data Access (JDA)
 
-> **Java Data Access (JDA)** refers to the techniques and libraries that connect Java applications with databases.
-> It provides a framework for managing data and executing SQL queries. JDA includes JDBC, a standard API
-> for connecting to relational databases, and Object-Relational Mapping frameworks like Hibernate and JPA. 
-> JDA simplifies database connectivity, data retrieval, and transaction management in Java applications, 
-> improving performance and data consistency. With JDA, developers can build robust and scalable
->  applications that interact with databases seamlessly.
+> **Java Data Access (JDA)** refers to the techniques and libraries
+> that connect Java applications with databases.
+> It provides a framework for managing data and executing SQL queries.
+> JDA includes JDBC, a standard API for connecting to relational
+> databases, and Object-Relational Mapping frameworks like Hibernate and JPA.
+> JDA simplifies database connectivity, data retrieval, and transaction
+> management in Java applications, improving performance and data
+> consistency. With JDA, developers can build robust and scalable
+> applications that interact with databases seamlessly.
 
 ---
 
@@ -503,6 +507,3 @@ Key features of JDBC include:
 5. Transaction Management
 6. Exception Handling
 7. Database Metadata
-
----
-
