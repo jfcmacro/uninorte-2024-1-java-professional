@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8">
+    <title>Add</title>
+  </head>
+  <body>
+    <h1>Add</h1>
+    <form action="/add" method="post">
+      Number1: <input type="number" name="number1"/><br />
+      Number2: <input type="number" name="number2"/><br />
+      <button type="summit">add</button>
+    </form>
+    <h2>Result</h2>
+    <p th:text="${result}"></p>
+  </body>
+</html>
+      
